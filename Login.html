@@ -1,0 +1,65 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>  LMS|Login</title>  
+<style>  
+/* The following tag selector body use the font-family and background-color properties for body of a page*/  
+  
+body {  
+font-family: Calibri, Helvetica, sans-serif;  
+    
+background-color: peachpuff;  
+}   
+/* Following container class used padding for generate space around it, and also use a background-color for specify the color lightblue as a background */    
+.container {  
+padding: 100px;
+margin-left: 30%;
+margin-right: 30%;  
+background-color: rgb(255, 166, 0);  
+}  
+/* The following tag selector input use the different properties for the text filed. */  
+input[type=text] {  
+  width: 100%;  
+  padding: 10px;  
+  margin: 10px ;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus {  
+background-color: white;  
+outline: none;  
+}  
+  
+</style>  
+</head>  
+<body>  
+  
+<form>  
+<div class="container" >
+  <img src="logo new.png" width="250" height="200" style="text-align: center;">
+<h1 style="text-align: center;"> Admin Login </h1> 
+<hr>  
+<label for="id" >   
+<h3 style="text-align: center;">ID:</h3>
+</label> 
+  
+<input type="text" id="id"  placeholder= "id" size="15" required  />   
+
+
+  
+ 
+<label for="Phone" >   
+  <h3 style="text-align: center;">Password: </h3>
+</label>  
+<input type="text" name="password" placeholder="password"   size="2" required />   
+
+<button class="btn btn-sm btn-info float-left" >Submit </button> 
+</div> 
+</form>  
+</body>  
+</html>  
